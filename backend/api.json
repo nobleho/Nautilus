@@ -1,0 +1,30 @@
+{
+  "api": "demoapi",
+  "name": "unknown name",
+  "config": [
+    {
+      "name": "STATUS",
+      "procedure": "CALL filterStatus(?)",
+      "type": "API",
+      "url": "getAllStatus",
+      "query": "SELECT * FROM status WHERE deleted = done",
+      "params": [
+        "done",
+        "BOOLEAN"
+      ],
+      "procName": "filterStatus"
+    },
+    {
+      "name": "BOOK",
+      "procedure": "CALL filterBook(?)",
+      "type": "API",
+      "url": "getAllBook",
+      "query": "SELECT * FROM book WHERE deleted = done",
+      "params": [
+        "done",
+        "BOOLEAN"
+      ],
+      "procName": "filterBook"
+    }
+  ]
+}

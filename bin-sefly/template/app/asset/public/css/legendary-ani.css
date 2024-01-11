@@ -1,0 +1,7 @@
+/* Legendary.css 0.10a June 2023 by Noble HideToshi */
+/* "Make it as simple as possible, but not simpler."
+Albert Einstein */
+.le6y-ani-left {
+    position: relative;
+    animation: animateleft 0.5s;
+}

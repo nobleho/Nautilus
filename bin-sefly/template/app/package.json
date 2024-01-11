@@ -1,0 +1,42 @@
+{
+  "author": "Noble H.",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcrypt": "5.1.1",
+    "dayjs": "^1.8.20",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.2",
+    "npm": "^10.2.1",
+    "papaparse": "^5.4.1",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "table": "^6.8.1",
+    "treeify": "^1.1.0",
+    "typy": "^3.3.0",
+    "ws": "^8.6.0",
+    "yaml": "^2.2.1",
+    "yargs": "^17.7.2"
+  },
+  "description": "An application.",
+  "homepage": "",
+  "keywords": [
+    "language",
+    "Nautilus"
+  ],
+  "license": "",
+  "main": "./bin/server2.js",
+  "name": "demo",
+  "repository": {
+    "url": "https://github.com/nobleho/demo"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1a.sv240111.1516d"
+}

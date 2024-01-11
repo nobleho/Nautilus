@@ -1,0 +1,7 @@
+DELIMITER //
+CREATE PROCEDURE `filterStatus`(IN done BOOLEAN)
+BEGIN
+SELECT * FROM status WHERE deleted = done;
+END//
+
+DELIMITER ;
