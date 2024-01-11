@@ -1,7 +1,0 @@
-DELIMITER //
-CREATE PROCEDURE `filterBook`(IN done BOOLEAN)
-BEGIN
-SELECT * FROM book WHERE deleted = done;
-END//
-
-DELIMITER ;
